@@ -1,6 +1,6 @@
 import React from 'react'
 
-const itemValue = props => {
+const ItemValue = props => {
   const item = 'SDカード'
   const value = 1200
   return (
@@ -18,7 +18,7 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <itemValue />
+        <ItemValue />
       </div>
     )
   }
